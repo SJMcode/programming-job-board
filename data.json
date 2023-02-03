@@ -1,0 +1,18 @@
+var jobListings = [
+  {
+    jobType: "Full-Stack Developer",
+    location: "New York",
+    applyLink: "https://www.example.com/full-stack-developer-new-york"
+  },
+  {
+    jobType: "Front-End Developer",
+    location: "San Francisco",
+    applyLink: "https://www.example.com/front-end-developer-san-francisco"
+  },
+  {
+    jobType: "Back-End Developer",
+    location: "London",
+    applyLink: "https://www.example.com/back-end-developer-london"
+  },
+  // Add more job listings as needed
+];

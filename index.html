@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Programming Job Board</title>
+    <link rel="stylesheet" type="text/css" href="app.css">
+  </head>
+  <body>
+    <header>
+      <h1>Programming Job Board</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Employers</a></li>
+        </ul>
+      </nav>
+      <form action="#" method="get">
+        <label for="job-type-search">Job Type:</label>
+        <select id="job-type-search" name="job-type">
+          <option value="">All</option>
+          <option value="web-developer">Web Developer</option>
+          <option value="full-stack-engineer">Full Stack Engineer</option>
+          <option value="mobile-developer">Mobile Developer</option>
+        </select>
+        <label for="location-search">Location:</label>
+        <input type="text" id="location-search" name="location" placeholder="Enter a city or state">
+        <input type="submit" value="Search">
+      </form>
+    </header>
+    <main>
+      <h2>Available Jobs</h2>
+      <table>
+  <thead>
+    <tr>
+      <th>Job Type</th>
+      <th>Location</th>
+      <th>Apply</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Full-Stack Developer</td>
+      <td>New York</td>
+      <td><button>Apply</button></td>
+    </tr>
+    <!-- Other rows for other job listings -->
+  </tbody>
+</table>
+    </main>
+    <footer>
+      <p>&copy; 2023 Programming Job Board</p>
+    </footer>
+  </body>
+</html>
